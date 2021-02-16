@@ -215,7 +215,7 @@ h4 {
 .section_content {width: 100%;}
 .section_content h2 {font-size: 24px; letter-spacing: 4px;}
 .section_content4 h1 {margin-top: 300px; font-size: 24px;}
-.section_content p {font-size: 14px;}
+.section_content p {font-size: 11px;}
 
     
 /*s0*/
@@ -225,7 +225,7 @@ h4 {
 
 .section_home h1 {font-size: 40px; right: 5%; letter-spacing: 0px; border-bottom: 25px solid #ade0ff;}
 .section_home h2 {font-size: 16px; top: 120px; right: 6%; letter-spacing: 1px;}
-    .home_txt > h2 {margin-top: 0px;}
+.home_txt > h2 {margin-top: 0px;}
 #home_right {right: -58px; top: 300px; transform: rotate(90deg);}
 #home_right_txt {font-size: 10px;}
 #home_bottom_txt {left: 70px; bottom: 150px; font-size: 10px;}
@@ -244,14 +244,14 @@ h4 {
 .profile_txt {width: 100%; top: 36px;}
 .profile_txt h3 {width: 30%; left: -49%; font-size: 18px; padding-left: 5px;}
 .profile_txt p {width: 65%; top: 5px; left: -15%; line-height: 40px;}
-.txt2 {padding-top: 50px;}
-.txt2 h3 {margin-top: 50px;}
+.txt2 {padding-top: 30px;}
+.txt2 h3 {margin-top: 30px;}
 /*s3*/
 .section_content3 {width: 90%;}
 #skill_txt {height: 290px; margin: 1px;}
 .aligner_item {height: 35px;}
-.aligner_item h3 {font-size: 14px;}
-.skill_p {font-size: 12px; padding-top: 10px; padding-left: 10px; line-height: 20px;}
+.aligner_item h3 {font-size: 1s4px;}
+.skill_p {padding-top: 10px; padding-left: 5px; line-height: 20px;}
 /*s4*/
 .pplist {top:250px;}
 .pplist .image_box {height: 150px;  margin-top: 0px;}
@@ -274,7 +274,8 @@ h4 {
 #navTop_box #topMenu li.active > a {border-bottom: 0; padding: 4px; background: #ccedf6; color: #fff; border-radius: 5px;}
 
 .section_content {width: 100%;}
-.section_content h2 {top: 10px; font-size: 24px; letter-spacing: 4px;}
+.section_content h2 {font-size: 24px; letter-spacing: 4px;}
+.section_content3 h2 {top: 10px;}
 .section_content4 h1 {font-size: 24px; margin-top: 200px;}
 .section_content4 h3 {margin-top: -10px;}
     
@@ -297,7 +298,7 @@ h4 {
     
 /*s2*/
 .profile_box {width: 100%;}
-.profile_box h2 {padding-top: 10px; padding-bottom: 10px;}
+.profile_box h2 {padding-top: 5px; padding-bottom: 5px;}
 .img_box img {display: none;}
 #profile_right {width: 100%;}
 .profile_txt {width: 100%; top: 16px;}
