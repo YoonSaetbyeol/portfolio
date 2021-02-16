@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>윤샛별 포트폴리오</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/fullpage.js"></script>
+    <link rel="stylesheet" href="css/fullpage.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/colorbox.css">
+    <script src="js/jquery.colorbox-min.js"></script>
+    <style>
+        a:hover{
+            color: #dfdf;            
+        }
+/*
+        a:visited{
+            color: #242424;
+        }
+*/
+        .slide {
+            margin: 0 auto;
+            width: 100%;           
+        }
+        .slide h1 {
+            text-align: center;
+            margin-bottom: 300px;
+        }
+        .pp h3 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .pp p {
+            text-align: center;
+            margin-bottom: 40px; 
+        }       
+        .pp h4 {
+            text-align: center;
+            margin-bottom: 40px; 
+        }       
+        .title_box {animation: border 1s;}
+        @keyframes border {from{border: 0px;} 
+                      25% {border: 686px 0px;}
+                      50%{border: 686px 686px;} 
+                      75% {border:  0px 686px;} 
+                      to {border: 0px 686px;}
+        }
+      
+    </style>
+    <script>
+        $(document).ready(function(){
+//              $(".youtube").colorbox({iframe:true, innerWidth:1280, innerHeight:760});
+            var wi=$(window).width();
+  
+                if(wi<=500){
+                     $(".youtube").colorbox({iframe:true, innerWidth:280, innerHeight:200});
+                }else if(501<=wi&&wi<=649){
+                    $(".youtube").colorbox({iframe:true, innerWidth:450, innerHeight:300});
+                }else if(650<=wi&&wi<=849){
+                    $(".youtube").colorbox({iframe:true, innerWidth:600, innerHeight:500});
+                }else if(850<=wi&&wi<=1299){
+                    $(".youtube").colorbox({iframe:true, innerWidth:800, innerHeight:600});
+                }else if(wi>=1300){ 
+                    $(".youtube").colorbox({iframe:true, innerWidth:1280, innerHeight:720});
+                }
+           
+            $(window).resize(function(){
+                var w=window.outerWidth;
+                   console.log(w)
+                if(w<=500){
+                     $(".youtube").colorbox({iframe:true, innerWidth:280, innerHeight:300});
+                 }else if(501<=w&&w<=649){
+                    $(".youtube").colorbox({iframe:true, innerWidth:450, innerHeight:400});
+                }else if(650<=w&&w<=849){
+                    $(".youtube").colorbox({iframe:true, innerWidth:600, innerHeight:600});
+                }else if(850<=w&&w<=1299){
+                    $(".youtube").colorbox({iframe:true, innerWidth:800, innerHeight:600});
+                }else if(w>=1300){
+                    $(".youtube").colorbox({iframe:true, innerWidth:1280, innerHeight:720});
+                }
+            });
+            
+            
+        });
+	</script>
+</head>
+
+
+<body>
+    <nav id="navTop">
+        <div id="navTop_box">
+            <ul id="topMenu">
+                <li data-menuanchor="0st"><a href="#0st">HOME</a></li>
+                <li data-menuanchor="1st"><a href="#1st">PROFILE</a></li>
+                <li data-menuanchor="2st"><a href="#2st">SKILL</a></li>
+                <li data-menuanchor="3st"><a href="#3st">PORTFOLIO</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div id="full-page">
+        <div class="section s0">
+            <div class="section_home">
+               <div class="title_box">
+                <div class = "home_txt">
+                    <h1>PORTFOLIO</h1>
+                    <h2>YOON SAET BYEOL</h2>
+                </div>
+               </div>
+                <div id="home_right">
+                    <div id="home_right_txt">2021.01.START</div>
+                </div>
+                <div id="home_bottom_txt">Responsive Web | Last Update 21.02.18</div>
+                <hr class="home_line home_right_line">
+                <hr class="home_line home_left_line">
+                <hr class="home_line home_bottom_line">
+            </div>
+        </div>
+        <div class="section s2">
+            <div class="section_content section_content2">
+                <div class="profile_box"><h2>PROFILE</h2></div>
+                    <div class="img_box">
+<!--                        <img src="" alt="">-->
+                    </div>
+            <div id="profile_right">      
+                <div class="profile_txt txt1">
+                    <h3>ABOUT</h3>
+                    <p>윤샛별</p>
+                    <p>1993.01.26</p>
+                    <p>경기도 광명시</p>
+                    <p>010-5058-5996</p>
+                    <p>colors9@naver.com</p>
+                </div>
+                <div class="profile_txt txt2">
+                    <h3>EDUCATION</h3>
+                    <p>멀티미디어콘텐츠제작 (앱콘텐츠, 영상콘텐츠)</p>
+                    <p class="sub">- 교육기관: 방송정보국제교육원</p>
+                    <p class="sub">- 교육기관: 2020.09.16 - 2021.02.18</p>
+                    <p class="sub">- 교육내용: HTML5, CSS3, JavaScript, jQuery<br>Photoshop, illustrator, Premiere Pro, After Effects</p>
+                </div>
+            </div>  
+          </div>
+        </div>
+        <div class="section s3">
+            <div class="section_content section_content3">
+                <h2>SKILL</h2>
+                <div id="skill_txt">
+                   <div class="aligner_item">
+                    <h3>Photoshop/illustrator</h3>
+                   </div>    
+                    <div class="skill_p">
+                       <p>
+                        • 포토샵을 활용한 디자인<br>
+                        • 일러스트을 활용한 디자인
+                        </p>
+                    </div>
+                </div>
+                <div id="skill_txt">
+                   <div class="aligner_item">
+                    <h3>Premiere Pro/After Effects</h3>
+                   </div>
+                    <div class="skill_p">
+                       <p>
+                        • 프리미어를 활용한 동영상 편집<br>
+                        • 애프터이펙트를 활용한 모션그래픽 디자인
+                        </p>
+                    </div>
+                </div>
+                <div id="skill_txt">
+                   <div class="aligner_item">
+                    <h3>HTML5/CSS3</h3>
+                   </div>
+                    <div class="skill_p">
+                       <p>
+                        • 페이지 구현, 구성   및 위치조절 구현가능 <br>
+                        • 웹 접근성을 준수한 코딩 가능<br>
+                        • 회원가입, 게시판 폼 완벽하게   이해, 마크업 가능<br>
+                        • HTML5 등에서 사용되는 시멘틱 태그 완벽 이해<br>
+                        • CSS, CSS3등 쓰임, 활용 완벽하게 이해하고 있으며, CSS3 애니메이션 제작 가능.
+                        </p>
+                    </div>
+                </div>
+                <div id="skill_txt">
+                   <div class="aligner_item">
+                    <h3>JavaScript/jQuery</h3>
+                   </div>
+                    <div class="skill_p">
+                       <p>
+                        • 조건문의 완벽한 활용. <br>
+                        • 배열 및 객체의 이해, 입력 양식의 확인사항 등 작업 가능 <br>
+
+                        • 제이쿼리를 이용하여 터치에 반응하는 웹페이지   구현 가능 <br>
+                        • 선택자, 속성, 이벤트, 효과 등 완벽 숙지 <br>
+                        • GNB제작, Tab메뉴, 퀵메뉴 등 제작 가능 <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section s4">
+            <div class="section_content section_content4">
+                <div class="slide slide_1">
+                   <h1>MOTION GRAPHIC</h1>
+                <div class="pplist" style="display: block;">
+                    <div class="pp 1">
+                        <div class="image_box">
+                            <img src="img/snapshot4.jpg" alt="">
+                        </div>
+                            <h3>Adidas Promotion</h3>
+                            <p>Photoshop illustrator <br> PremierePro AfterEffects</p>
+                            <h4>
+                                <a href="https://player.vimeo.com/video/508666851" class="youtube">view</a>
+                            </h4>
+                    </div>
+                </div>
+            </div>
+              <div class="slide slide_2">
+                   <h1>MOTION GRAPHIC</h1>
+                <div class="pplist" style="display: block;">
+                    <div class="pp 2">
+                        <div class="image_box">
+                            <img src="img/snapshot.jpg" alt="">
+                        </div>
+                            <h3>AOMG Concert Line-up</h3>
+                            <p>Photoshop illustrator <br> PremierePro AfterEffects</p>
+                            <h4>
+                                <a href="https://player.vimeo.com/video/508666875" class="youtube">view</a>
+                            </h4>
+                    </div>
+                </div>
+            </div>
+               <div class="slide slide_3">
+                   <h1>MOTION GRAPHIC</h1>
+                <div class="pplist" style="display: block;">
+                    <div class="pp 3">
+                        <div class="image_box">
+                            <img src="img/snapshot3.jpg" alt="">
+                        </div>
+                            <h3>IU Promotion</h3>
+                            <p>Photoshop illustrator <br> PremierePro AfterEffects</p>
+                            <h4>
+                               <a href="https://player.vimeo.com/video/508666903" class="youtube">view</a>
+                            </h4>
+                    </div>
+                </div>
+            </div>
+<!--
+               <div class="slide slide_4">
+                   <h1>MOTION GRAPHIC</h1>
+                <div class="pplist" style="display: block;">
+                    <div class="pp 4">
+                        <div class="image_box"></div>
+                            <h3>portfolio 1</h3>
+                            <p>Photoshop illustrator <br> PremierePro AfterEffects</p>
+                            <h4>
+                                <a target="_blank" href="">view</a>
+                            </h4>
+                    </div>
+                </div>
+               </div>
+-->
+                <div class="slide slide_5">
+                   <h1>웹퍼블리싱, 프론트앤드</h1>
+                <div class="pplist" style="display: block;">
+                    <div class="pp 5">
+                        <div class="image_box">
+                            <img src="img/snapshot7.jpg" alt="">
+                        </div>
+                            <h3>KODAK 사이트 리뉴얼</h3>
+                            <p>HTML5 CSS3</p>
+                            <h4>
+                                <a target="_blank" href="">view</a>
+                            </h4>
+                    </div>
+                </div>
+            </div>
+              <div class="slide slide_6">
+                   <h1>웹퍼블리싱, 프론트앤드</h1>
+                <div class="pplist" style="display: block;">
+                    <div class="pp 5">
+                        <div class="image_box">
+                            <img src="img/snapshot9.jpg" alt="">
+                        </div>
+                            <h3>d'Alba 사이트 리뉴얼</h3>
+                            <p>HTML5 CSS3 Javescript jQuery</p>
+                            <h4>
+                                <a target="_blank" href="">view</a>
+                            </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+<script>
+    new fullpage('#full-page', {
+        licenseKey:'OPEN-SOURCE-GPLV3-LICENSE',
+        anchors:["0st","1st","2st","3st"],
+        menu:"#topMenu",
+//        sectionsColor:['#fff', '#fff', '#fff', '#f5f5f5'],
+        scrollingSpeed: 1000,
+        slidesNavigation: true,
+		slidesNavPosition: 'bottom',
+        /*onLeave: function(origin, destination, direction) {
+           if(origin.index == 2){
+               $('.skill_item .sk_txt_box .sk_txt').fadeOut();
+           } 
+        },*/
+//        onLeave: function(origin, destination, direction) {
+//            var leavingSection = this;
+//            if(origin.index == 0) {
+//                $('.right_box .ct_inbox .ct_txt ul li').delay(600).fadeIn();
+//            }
+//            if(origin.index == 2) {
+//                $('.right_box .ct_inbox .ct_txt ul li').delay(600).fadeIn();
+//            }
+//            if(origin.index == 1) {
+//                $('.right_box .ct_inbox .ct_txt ul li').fadeOut();
+//            }
+//        }
+//        
+    });
+</script>
+</body>
+</html>
