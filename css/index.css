@@ -274,9 +274,9 @@ h4 {
 #navTop_box #topMenu li.active > a {border-bottom: 0; padding: 4px; background: #ccedf6; color: #fff; border-radius: 5px;}
 
 .section_content {width: 100%;}
-.section_content h2 {font-size: 24px; letter-spacing: 4px;}
-.section_content4 h1 {font-size: 24px; margin-top: 220px;}
-.section_content4 h3 {margin-top: 10px;}
+.section_content h2 {top: 10px; font-size: 24px; letter-spacing: 4px;}
+.section_content4 h1 {font-size: 24px; margin-top: 200px;}
+.section_content4 h3 {margin-top: -10px;}
     
 /*s0*/
 .section_home {width: calc(100% - 40px); height: calc(100% - 40px); margin: 20px;}
@@ -307,13 +307,13 @@ h4 {
 .txt2  {margin-top:20px;}
 /*s3*/
 .section_content3 {width: 90%;}
-#skill_txt {height: 220px; top: 5px; margin: 1px;}
+#skill_txt {height: 220px; margin: 1px;}
 .aligner_item {height: 35px;}
 .aligner_item h3 {font-size: 12px;}
 .skill_p {font-size: 10px; padding-top: 5px; padding-left: 5px; line-height: 15px; text-align: jus;}
 /*s4*/
-.pplist {top:230px;}
-.pplist .image_box {height: 150px;  margin-top: 0px;}
+.pplist {top:200px;}
+.pplist .image_box {height: 150px;  margin-top: 30px;}
 
     
 /*s4 slideNavigation*/
